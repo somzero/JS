@@ -2,7 +2,7 @@
 
 ## let, const, var
 
-- `let`
+- let
 
   ```
   let a = 100;
@@ -11,7 +11,7 @@
   console.log(b, a);
   ```
 
-- `const`
+- const
 
   ```
   const a = 100;
@@ -45,15 +45,15 @@
 
 ## Data with Odject
 
-- Odject와 Array의 다른점: Array는 정렬,리스트의 개념이다.
+- Array 와의 차이점: Array 는 정렬, 리스트의 개념이다.
 
-- {컬리브라켓}은 Object 선언을 의미.
+- {_컬리브라켓_}은 Object 선언을 의미.
 
-- Object는 '실제 객체'를 만드는 것이어서 Array가 적용되지 않는다
+- Object는 **실제 객체**를 만드는 것이어서 Array 가 적용되지 않는다
 
 ### Object
 
-- Object안의 value값은 후자에서 변경 할 수 있다.
+- Object 안의 value 값은 후자에서 변경 할 수 있다.
 
   ```
   const youngInfo = {
@@ -70,7 +70,7 @@
   console.log(youngInfo.name);
   ```
 
-- Object안에 Array를 넣을 수 있다.
+- Object 안에 Array 를 넣을 수 있다.
 
   ```
   const youngInfo = {
