@@ -4,23 +4,23 @@
 
 - let
 
-```
-let a = 100;
-let b = a + 5;
-a = 1;
-console.log(b, a);
-```
+  ```
+  let a = 100;
+  let b = a + 5;
+  a = 1;
+  console.log(b, a);
+  ```
 
 - const
 
-```
-const a = 100;
-let b = a + 5;
-a = 1;
-console.log(b, a)
-```
+  ```
+  const a = 100;
+  let b = a + 5;
+  a = 1;
+  console.log(b, a)
+  ```
 
-> var은 let과 비슷하고 중요하지 않음.
+- var은 let과 비슷하고 중요하지 않음.
 
 ---
 
@@ -28,20 +28,20 @@ console.log(b, a)
 
 - N번째 요일
 
-```
-const daysOfWeek = ["Sun", "Mon", "Tue", "Wed"];
+  ```
+  const daysOfWeek = ["Sun", "Mon", "Tue", "Wed"];
 
-console.log(daysOfWeek[0]);
-```
+  console.log(daysOfWeek[0]);
+  ```
 
 - array 활용
 
-```
-const something = "Nothing";
-const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", something];
+  ```
+  const something = "Nothing";
+  const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", something];
 
-console.log(daysOfWeek);
-```
+  console.log(daysOfWeek);
+  ```
 
 ## Data with Odject
 
@@ -55,52 +55,52 @@ console.log(daysOfWeek);
 
 - Object안의 value값은 후자에서 변경 할 수 있다.
 
-```
-const youngInfo = {
-name: "Young",
-gender: "Female",
-age: "30",
-isStudent: false
-};
+  ```
+  const youngInfo = {
+  name: "Young",
+  gender: "Female",
+  age: "30",
+  isStudent: false
+  };
 
-console.log(youngInfo.name);
+  console.log(youngInfo.name);
 
-youngInfo.name = "Zero";
+  youngInfo.name = "Zero";
 
-console.log(youngInfo.name);
-```
+  console.log(youngInfo.name);
+  ```
 
 - Object안에 Array를 넣을 수 있다.
 
-```
-const youngInfo = {
-name: "Young",
-gender: "Female",
-age: "30",
-isStudent: false,
-favMovie: ["Paterson", "Youth", "Miss sloane"]
-};
+  ```
+  const youngInfo = {
+  name: "Young",
+  gender: "Female",
+  age: "30",
+  isStudent: false,
+  favMovie: ["Paterson", "Youth", "Miss sloane"]
+  };
 
-console.log(youngInfo);
-```
+  console.log(youngInfo);
+  ```
 
 - Object 활용: Array 형식 안에 Object 넣기
 
-```
-const youngInfo = {
-name: "Young",
-gender: "Female",
-age: "30",
-isStudent: false,
-favFood: [
-{ name: "galbi", korean: true },
-{ name: "Cheese", korean: false }
-]
-};
+  ```
+  const youngInfo = {
+  name: "Young",
+  gender: "Female",
+  age: "30",
+  isStudent: false,
+  favFood: [
+  { name: "galbi", korean: true },
+  { name: "Cheese", korean: false }
+  ]
+  };
 
-console.log(youngInfo);
-```
+  console.log(youngInfo);
+  ```
 
 - Object 활용: Array 형식 안에 Object 넣기: array안의 n번째 object log하기
 
-`console.log(youngInfo.favFood[1].korean);`
+  `console.log(youngInfo.favFood[1].korean);`
