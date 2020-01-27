@@ -101,5 +101,5 @@
   console.log(youngInfo);
   ```
 
-  1. array안의 n번째 object log하기
-     `console.log(youngInfo.favFood[1].korean);`
+  > array안의 n번째 object log하기
+  > `console.log(youngInfo.favFood[1].korean);`
