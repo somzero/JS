@@ -2,7 +2,7 @@
 
 ## let, const, var
 
-- let
+- `let`
 
   ```
   let a = 100;
@@ -11,7 +11,7 @@
   console.log(b, a);
   ```
 
-- const
+- `const`
 
   ```
   const a = 100;
@@ -51,7 +51,7 @@
 
 - Object는 '실제 객체'를 만드는 것이어서 Array가 적용되지 않는다
 
-**Object**
+### Object
 
 - Object안의 value값은 후자에서 변경 할 수 있다.
 
@@ -101,6 +101,5 @@
   console.log(youngInfo);
   ```
 
-- Object 활용: Array 형식 안에 Object 넣기: array안의 n번째 object log하기
-
-  `console.log(youngInfo.favFood[1].korean);`
+  1. array안의 n번째 object log하기
+     `console.log(youngInfo.favFood[1].korean);`
