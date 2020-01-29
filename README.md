@@ -203,6 +203,28 @@ const title = document.querySelector("#title");
 
 ```
 
+- handleResize
+
+```
+function handleResize() {
+  console.log("I have been resized");
+}
+
+window.addEventListener("resize", handleResize);
+
+```
+
+- handleResize
+
+```
+function handleClick() {
+  title.style.color = "blue";
+}
+
+title.addEventListener("click", handleClick);
+
+```
+
 ---
 
 [참고마크다운](https://markdowntohtml.com/)
