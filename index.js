@@ -1,12 +1,11 @@
-const youngInfo = {
-  name: "Young",
-  gender: "Female",
-  age: "30",
-  isStudent: false,
-  favFood: [
-    { name: "galbi", korean: true },
-    { name: "Cheese", korean: false }
-  ]
-};
+function handleResize() {
+  console.log("I have been resized");
+}
 
-console.log(youngInfo.favFood[1].korean);
+window.addEventListener("resize", handleResize);
+
+function handleClick() {
+  title.style.color = "blue";
+}
+
+title.addEventListener("click", handleClick);
