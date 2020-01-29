@@ -214,7 +214,7 @@ window.addEventListener("resize", handleResize);
 
 ```
 
-- handleResize
+- handleClick
 
 ```
 function handleClick() {
