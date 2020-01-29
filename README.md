@@ -138,14 +138,18 @@ sayHello("Young", 6, 2020);
 
 - "string", 'string', `string`
 
+```
 function sayHello(name, age, year) {
 console.log(`Hello ${name} You are ${age} in ${year}`);
 }
 
 sayHello("Young", 6, 2020);
 
+```
+
 - console.log 대신 return
 
+```
 function sayHello(name, age, year) {
 return `Hello ${name} You are ${age} in ${year}`;
 }
@@ -154,8 +158,11 @@ const sayHi = sayHello("Young", 6, 2020);
 
 console.log(sayHi);
 
+```
+
 - 함수 최종 예제 (복습하기)
 
+```
 const calculator = {
 plus: function(a, b) {
 return a + b;
@@ -164,6 +171,7 @@ return a + b;
 
 const plus = calculator.plus(6, 4);
 console.log(plus);
+```
 
 ## html 활용
 
